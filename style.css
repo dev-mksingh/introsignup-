@@ -123,6 +123,15 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 600px) {
+    
+    body {
+        background: url('/images/bg-intro-desktop.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: hsl(0, 100%, 74%);
+    }
+    
+    
     .container {
         width: 90%;
         display: flex;
