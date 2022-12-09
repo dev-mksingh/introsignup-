@@ -6,10 +6,8 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const submit = document.querySelector('#submit');
 const allElements = document.querySelectorAll('input:not(:last-child)');
-console.log(allElements);
 
 const errors = document.querySelectorAll('.error');
-console.log(errors);
 
 submit.addEventListener('click', function(evt){
   evt.preventDefault();
